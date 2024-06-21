@@ -79,7 +79,7 @@ export default defineComponent({
     async handleSubmit() {
       this.emailSent = true;
       try {
-        const response = await axios.post('http://localhost:3000/contact', {
+        const response = await axios.post('https://dnz-demo-backend.vercel.app/contact', {
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email,
