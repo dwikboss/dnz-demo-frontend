@@ -1,0 +1,242 @@
+[
+    {
+        "SKU": "1231ANMa",
+        "Onderdeeltitel": "Schroefbout 15mm - TitanFix",
+        "Onderdeel_beschrijving": "Schroefbout voor een Volkswagen V60 motorophanging",
+        "Prijs_per_stuk": "5,00"
+    },
+    {
+        "SKU": "1232BNMb",
+        "Onderdeeltitel": "Moer M12 - HexaLock",
+        "Onderdeel_beschrijving": "Moer voor een BMW X5 wielophanging",
+        "Prijs_per_stuk": "2,50"
+    },
+    {
+        "SKU": "1233CNMc",
+        "Onderdeeltitel": "Bougie - SparkPro",
+        "Onderdeel_beschrijving": "Bougie voor een Audi A4 benzinemotor",
+        "Prijs_per_stuk": "7,00"
+    },
+    {
+        "SKU": "1234DNMd",
+        "Onderdeeltitel": "Oliefilter - OilGuard",
+        "Onderdeel_beschrijving": "Oliefilter voor een Mercedes-Benz C-Klasse",
+        "Prijs_per_stuk": "12,00"
+    },
+    {
+        "SKU": "1235ENMe",
+        "Onderdeeltitel": "Remschijf - BrakeMaster",
+        "Onderdeel_beschrijving": "Remschijf voor een Opel Astra vooras",
+        "Prijs_per_stuk": "25,00"
+    },
+    {
+        "SKU": "1236FNMf",
+        "Onderdeeltitel": "Luchtfilter - AirFlow",
+        "Onderdeel_beschrijving": "Luchtfilter voor een Ford Fiesta 1.0 EcoBoost",
+        "Prijs_per_stuk": "10,00"
+    },
+    {
+        "SKU": "1237GNMg",
+        "Onderdeeltitel": "Zekering 10A - FuseSafe",
+        "Onderdeel_beschrijving": "Zekering voor een Renault Clio elektrische installatie",
+        "Prijs_per_stuk": "1,00"
+    },
+    {
+        "SKU": "1238HNMh",
+        "Onderdeeltitel": "Waterpomp - AquaPump",
+        "Onderdeel_beschrijving": "Waterpomp voor een Peugeot 308 koelcircuit",
+        "Prijs_per_stuk": "45,00"
+    },
+    {
+        "SKU": "1239INMi",
+        "Onderdeeltitel": "Ruitenwisserblad - ClearView",
+        "Onderdeel_beschrijving": "Ruitenwisserblad voor een Toyota Corolla voorruit",
+        "Prijs_per_stuk": "8,00"
+    },
+    {
+        "SKU": "1240JNMj",
+        "Onderdeeltitel": "Koplamp - BrightLight",
+        "Onderdeel_beschrijving": "Koplamp voor een Honda Civic rechterkant",
+        "Prijs_per_stuk": "65,00"
+    },
+    {
+        "SKU": "1241KNMk",
+        "Onderdeeltitel": "Uitlaatpijp - ExhaustPro",
+        "Onderdeel_beschrijving": "Uitlaatpijp voor een Volvo XC90 dieseluitlaat",
+        "Prijs_per_stuk": "85,00"
+    },
+    {
+        "SKU": "1242LNMl",
+        "Onderdeeltitel": "Brandstoffilter - FuelClean",
+        "Onderdeel_beschrijving": "Brandstoffilter voor een Skoda Octavia 1.6 TDI",
+        "Prijs_per_stuk": "15,00"
+    },
+    {
+        "SKU": "1243MNMm",
+        "Onderdeeltitel": "Achterlicht - RearGlow",
+        "Onderdeel_beschrijving": "Achterlicht voor een Nissan Qashqai linkerkant",
+        "Prijs_per_stuk": "50,00"
+    },
+    {
+        "SKU": "1244NNMn",
+        "Onderdeeltitel": "Ruitenwissermotor - WipeMotion",
+        "Onderdeel_beschrijving": "Ruitenwissermotor voor een Mazda 3 achterruit",
+        "Prijs_per_stuk": "75,00"
+    },
+    {
+        "SKU": "1245ONMo",
+        "Onderdeeltitel": "Koppelingsset - ClutchMate",
+        "Onderdeel_beschrijving": "Koppelingsset voor een Hyundai i30 1.4 benzine",
+        "Prijs_per_stuk": "150,00"
+    },
+    {
+        "SKU": "1246PNMp",
+        "Onderdeeltitel": "Radiator - CoolGuard",
+        "Onderdeel_beschrijving": "Radiator voor een Kia Sportage koelsysteem",
+        "Prijs_per_stuk": "90,00"
+    },
+    {
+        "SKU": "1247QNMq",
+        "Onderdeeltitel": "Remblokken voor - StopSafe",
+        "Onderdeel_beschrijving": "Remblokken voor een Seat Leon vooras",
+        "Prijs_per_stuk": "35,00"
+    },
+    {
+        "SKU": "1248RNMr",
+        "Onderdeeltitel": "Stuurbekrachtigingspomp - SteerEase",
+        "Onderdeel_beschrijving": "Stuurbekrachtigingspomp voor een Alfa Romeo Giulietta",
+        "Prijs_per_stuk": "120,00"
+    },
+    {
+        "SKU": "1249SNMs",
+        "Onderdeeltitel": "Versnellingsbak olie - GearLube",
+        "Onderdeel_beschrijving": "Versnellingsbak olie voor een Jaguar XF automatische transmissie",
+        "Prijs_per_stuk": "60,00"
+    },
+    {
+        "SKU": "1250TNMt",
+        "Onderdeeltitel": "Gloeibougie - GlowPlug",
+        "Onderdeel_beschrijving": "Gloeibougie voor een Land Rover Defender dieselmotor",
+        "Prijs_per_stuk": "20,00"
+    },
+    {
+        "SKU": "1251UNMu",
+        "Onderdeeltitel": "Accukabel - PowerLine",
+        "Onderdeel_beschrijving": "Accukabel voor een Tesla Model 3",
+        "Prijs_per_stuk": "15,00"
+    },
+    {
+        "SKU": "1252VNMv",
+        "Onderdeeltitel": "Remvloeistof - BrakeFluid",
+        "Onderdeel_beschrijving": "Remvloeistof voor een VW Golf 7",
+        "Prijs_per_stuk": "8,00"
+    },
+    {
+        "SKU": "1253WNMw",
+        "Onderdeeltitel": "Koppelingskabel - ClutchWire",
+        "Onderdeel_beschrijving": "Koppelingskabel voor een Fiat 500",
+        "Prijs_per_stuk": "20,00"
+    },
+    {
+        "SKU": "1254XNMx",
+        "Onderdeeltitel": "Oliekoeler - OilCooler",
+        "Onderdeel_beschrijving": "Oliekoeler voor een Porsche 911",
+        "Prijs_per_stuk": "75,00"
+    },
+    {
+        "SKU": "1255YNMy",
+        "Onderdeeltitel": "Katalysator - CatClean",
+        "Onderdeel_beschrijving": "Katalysator voor een Mini Cooper",
+        "Prijs_per_stuk": "150,00"
+    },
+    {
+        "SKU": "1256ZNMz",
+        "Onderdeeltitel": "Stabilisatorstang - StabiFlex",
+        "Onderdeel_beschrijving": "Stabilisatorstang voor een Subaru Outback",
+        "Prijs_per_stuk": "30,00"
+    },
+    {
+        "SKU": "1257ANNa",
+        "Onderdeeltitel": "Trekhaak - HitchPro",
+        "Onderdeel_beschrijving": "Trekhaak voor een Jeep Wrangler",
+        "Prijs_per_stuk": "200,00"
+    },
+    {
+        "SKU": "1258BNNb",
+        "Onderdeeltitel": "V-snaar - V-Belt",
+        "Onderdeel_beschrijving": "V-snaar voor een Citroën C3",
+        "Prijs_per_stuk": "12,00"
+    },
+    {
+        "SKU": "1259CNNc",
+        "Onderdeeltitel": "Brandstofpomp - FuelFlow",
+        "Onderdeel_beschrijving": "Brandstofpomp voor een Saab 9-3",
+        "Prijs_per_stuk": "95,00"
+    },
+    {
+        "SKU": "1260DNNd",
+        "Onderdeeltitel": "Motorolie 5W30 - OilPro",
+        "Onderdeel_beschrijving": "Motorolie voor een Chevrolet Cruze",
+        "Prijs_per_stuk": "25,00"
+    },
+    {
+        "SKU": "1261ENNe",
+        "Onderdeeltitel": "Schokdemper - ShockMaster",
+        "Onderdeel_beschrijving": "Schokdemper voor een Lexus RX",
+        "Prijs_per_stuk": "65,00"
+    },
+    {
+        "SKU": "1262FNNf",
+        "Onderdeeltitel": "Kleppendekselpakking - ValveSeal",
+        "Onderdeel_beschrijving": "Kleppendekselpakking voor een Mitsubishi Lancer",
+        "Prijs_per_stuk": "18,00"
+    },
+    {
+        "SKU": "1263GNNg",
+        "Onderdeeltitel": "Remklauw - CaliperGrip",
+        "Onderdeel_beschrijving": "Remklauw voor een Hyundai Tucson",
+        "Prijs_per_stuk": "110,00"
+    },
+    {
+        "SKU": "1264HNNh",
+        "Onderdeeltitel": "Motorsteun - EngineMount",
+        "Onderdeel_beschrijving": "Motorsteun voor een Subaru Forester",
+        "Prijs_per_stuk": "55,00"
+    },
+    {
+        "SKU": "1265INNi",
+        "Onderdeeltitel": "Thermostaat - ThermoControl",
+        "Onderdeel_beschrijving": "Thermostaat voor een Toyota Yaris",
+        "Prijs_per_stuk": "22,00"
+    },
+    {
+        "SKU": "1266JNNj",
+        "Onderdeeltitel": "Benzine-injector - FuelInjector",
+        "Onderdeel_beschrijving": "Benzine-injector voor een Honda Accord",
+        "Prijs_per_stuk": "60,00"
+    },
+    {
+        "SKU": "1267KNNk",
+        "Onderdeeltitel": "ABS-sensor - ABSensor",
+        "Onderdeel_beschrijving": "ABS-sensor voor een Volvo S60",
+        "Prijs_per_stuk": "28,00"
+    },
+    {
+        "SKU": "1268LNNl",
+        "Onderdeeltitel": "Lichtmachine - AltGen",
+        "Onderdeel_beschrijving": "Lichtmachine voor een Kia Sorento",
+        "Prijs_per_stuk": "140,00"
+    },
+    {
+        "SKU": "1269MNNm",
+        "Onderdeeltitel": "Remschoenen - BrakeShoes",
+        "Onderdeel_beschrijving": "Remschoenen voor een Mazda CX-5",
+        "Prijs_per_stuk": "40,00"
+    },
+    {
+        "SKU": "1270NNNn",
+        "Onderdeeltitel": "Uitlaatspruitstuk - ExhaustManifold",
+        "Onderdeel_beschrijving": "Uitlaatspruitstuk voor een Nissan Juke",
+        "Prijs_per_stuk": "90,00"
+    }
+]
