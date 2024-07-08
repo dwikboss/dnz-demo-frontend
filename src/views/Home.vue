@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="img-block">
-        <div class="inventory-items">
+        <!-- <div class="inventory-items">
           <div v-for="item in inventory" :key="item.SKU" class="item">
             <div class="item-content">
               <div class="product-details">
@@ -28,24 +28,27 @@
               <p class="price">€{{ item.Prijs_per_stuk }}</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="order-tab" :class="{ 'open': isRequestFinished }">
-          <h1>Bestelling</h1>
-          <p>Bedankt voor uw bestelling bij De Nieuwe Zaak!</p>
-          <div class="order-wrapper" v-if="orderDetails" >
+          <img src="@/assets/images/logos/dnz-black.png" alt="dnz-logo">
+          <h2>Bestellijst</h2>
+          <p>Dit is uw bestellijst voor de Nieuwe Zaak.<br/>Controleer uw bestelling goed!</p>
+          <div class="order-wrapper" v-if="orderDetails">
             <div class="customer-details">
-              <p class="customer_firstname">{{ orderDetails.first_name }} {{ orderDetails.last_name }}
+              <p class="customer_firstname">{{ firstName }} {{ lastName }}
               </p>
-              <p class="customer_lastname">{{ orderDetails.email }}</p>
+              <p class="customer_lastname">{{ email }}</p>
             </div>
-            <div v-for="product in orderDetails.products" :key="product.SKU" class="invoice-product">
-              <div class="prod-title">{{ product.Onderdeeltitel }}</div>
-              <div class="prod-desc">{{ product.Onderdeel_beschrijving }}</div>
+            <div v-for="(product, index) in orderDetails" :key="product.SKU" class="invoice-product">
+              <div class="prod-title">{{ product.name }}</div>
+              <div class="prod-desc">{{ product.description }}</div>
               <div class="product-prices">
-                <div class="prod-amount">{{ product.Stuks }}</div>
-                <div class="prod-total">{{ product.Totaalprijs }}</div>
+                <div class="prod-amount">{{ product.amount }}</div>
+                <div class="prod-total">€{{ product.price * product.amount }}</div>
               </div>
+              <button class="btn-delete" @click="deleteProduct(index)">X</button>
             </div>
+            <button class="btn-confirm">Bestelling bevestigen</button>
           </div>
         </div>
       </div>
@@ -76,10 +79,13 @@ export default defineComponent({
     this.inventory = inventory;
   },
   methods: {
+    deleteProduct(index: any) {
+      this.orderDetails.splice(index, 1);
+    },
     async handleSubmit() {
       this.emailSent = true;
       try {
-        const response = await axios.post('https://dnz-demo-backend.vercel.app/contact', {
+        const response = await axios.post('http://localhost:3000/contact', {
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email,
@@ -87,7 +93,7 @@ export default defineComponent({
           inventory: inventory
         });
 
-        this.orderDetails = JSON.parse(response.data);
+        this.orderDetails = response.data.order.products;
         this.isRequestFinished = true;
         console.log(this.orderDetails);
       } catch (error) {
@@ -195,7 +201,7 @@ export default defineComponent({
       width: 60%;
       flex-grow: 1;
       background-color: black;
-      // background-image: url('@/assets/images/logos/dnz.png');
+      background-image: url('@/assets/images/logos/dnz.png');
       background-position: center center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -248,15 +254,65 @@ export default defineComponent({
         transition: all 350ms ease-out;
         padding: 50px;
 
+        .btn-confirm {
+          border: none;
+          background-color: #352E4F;
+          color: white;
+          padding: 15px;
+          margin-top: 25px;
+          transition: all 200ms ease;
+          font-family: 'Raleway';
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+
+          &:hover {
+            cursor: pointer;
+            background-color: #251f3b;
+          }
+        }
+
+        img {
+          position: absolute;
+          width: 200px;
+          top: 0;
+          right: 0;
+        }
+
         .invoice-product {
           display: flex;
           justify-content: space-between;
           gap: 25px;
           font-family: 'Raleway';
+          margin-bottom: 25px;
+
+          .btn-delete {
+            background-color: rgb(251, 88, 88);
+            border: none;
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-weight: 700;
+            transition: all 250ms ease;
+
+            &:hover {
+              cursor: pointer;
+              background-color: rgb(222, 64, 64);
+            }
+          }
+
+          .prod-title {
+            width: 30%;
+          }
+
+          .prod-desc {
+            width: 55%;
+          }
 
           .product-prices {
             display: flex;
             gap: 25px;
+            width: 15%;
           }
         }
 
@@ -307,8 +363,9 @@ export default defineComponent({
   }
 
   h2 {
-    color: var(--white);
-    font-weight: 200;
+    font-family: "Barlow";
+    color: var(--black);
+    font-weight: 700;
   }
 }
 </style>
