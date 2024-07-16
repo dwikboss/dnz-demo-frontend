@@ -72,7 +72,7 @@ export default defineComponent({
       orderDetails: null as any,
       inventory: [] as any[],
       isRequestFinished: false,
-      emailSent: false,
+      emailSent: false
     };
   },
   async mounted() {
@@ -85,17 +85,25 @@ export default defineComponent({
     async handleSubmit() {
       this.emailSent = true;
       try {
-        const response = await axios.post('https://dnz-demo-backend.vercel.app/contact', {
-          firstName: this.firstName,
-          lastName: this.lastName,
-          email: this.email,
-          message: this.message,
-          inventory: inventory
-        });
+        // const response = await axios.post('https://dnz-demo-backend.vercel.app/contact', {
+        //   firstName: this.firstName,
+        //   lastName: this.lastName,
+        //   email: this.email,
+        //   message: this.message,
+        //   inventory: inventory
+        // });
 
-        this.orderDetails = response.data.order.products;
+        // this.orderDetails = response.data.order.products;
+        // this.isRequestFinished = true;
+        // console.log(this.orderDetails);
+
+        const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/searchproducts`, {
+          userMessage: this.message,
+        })
+
+        this.orderDetails = response.data.products;
         this.isRequestFinished = true;
-        console.log(this.orderDetails);
+
       } catch (error) {
         console.error('Error sending contact form:', error);
       }
